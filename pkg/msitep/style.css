@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+
+@font-face {
+    font-family: 'chorina';
+    src: url('fontes/Cherolina.otf') format('opentype'),
+         url('fontes/Cherolina.ttf') format('truetype');
+    font-weight: normal;
+}
+
+.container {
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    height: 80px;
+    width: 360px;
+    font-family: 'Mukta' ,Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+    color: rgb(54, 53, 53);
+    text-align: center;
+    border: 10px solid rgba(172, 91, 118, 0.301);
+    border-radius: 1em;
+    padding: 0.1cm;
+    margin: auto;
+}
+
+h2 {
+    font-family: 'mukta';
+    font-size: 28px;
+    color: rgb(80, 80, 80);
+    background-color: rgba(172, 91, 118, 0.445);
+    border-radius: 6%;
+    text-align: center;
+    height: auto;
+    width: 300px;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-bottom: 40px;
+    margin-left: auto;
+}
+
+body {
+    background-image: linear-gradient(to right, #f1efef, #8f8282);
+}
+
+p#principal {
+    font-size: 18px;
+    text-align: center;
+    min-width: 280px;
+    max-width: 800px;
+    margin: auto;
+    font-family: "mukta", Arial, Helvetica, sans-serif;
+}
+
+.contato {
+    text-align: justify;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    list-style-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 10 10"><circle fill="palevioletred" cx="7" cy="7" r="2"/></svg>');
+    padding: 0;
+    
+  }
+  ul li {
+    margin: 10px 0;
+    font-size: 1em;
+  }
+
+  div#L1{
+    background-color: #b99da6;
+    block-size: 30px;
+    text-align: initial;
+  }
+
+  a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(119, 66, 82);
+  }
+
+  a:hover{
+    text-decoration: underline;
+    color:rgb(207, 108, 133);
+  }
+  
+  a:active{
+    color: rosybrown;
+  }
+
+  a::after{
+    content: '⮨';
+  }
+
+  a::before{
+    content: '⮩';
+  }
